@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "vacra-client"
+version = "0.1.0"
+description = "Python client for the VACRA Score API — calibration attestation for AI agents"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Eric Chan", email = "contact@vacra.ai" }]
+requires-python = ">=3.10"
+keywords = ["vacra", "ai", "calibration", "attestation", "crs", "agent-trust"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://vacra.ai"
+Documentation = "https://vacra.ai/docs"
+Repository = "https://github.com/vacra-ai/vacra-client"
